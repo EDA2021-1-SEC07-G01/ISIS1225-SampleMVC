@@ -59,6 +59,12 @@ def loadTags():
     """
     return controller.loadTags('GoodReads/tags.csv')
 
+def loadBooksTags():
+    """
+    Carga los Books Tags
+    """
+    return controller.loadBooksTags('GoodReads/book_tags')
+
 
 """
 Menu principal
